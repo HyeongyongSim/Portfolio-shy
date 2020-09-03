@@ -1995,7 +1995,7 @@ pre code {
   width: 100%;
   height: calc(1.5em + 1rem);
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -10205,7 +10205,6 @@ h3 {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -10258,4 +10257,13 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.control-group{
+  width: 346px;	
+  float: left;
+  margin: 0px 5px;
+}
+.control-group a{
+	text-align: center;
 }
