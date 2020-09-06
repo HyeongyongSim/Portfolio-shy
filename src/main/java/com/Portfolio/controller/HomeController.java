@@ -24,4 +24,15 @@ public class HomeController {
 		return "home";
 	}
 	
+	@GetMapping("javaStudy")
+	public String javaStudy() {
+		
+		return "javaStudy";
+	}
+	
+	@GetMapping("interview")
+	public String interview() {
+		
+		return "interview";
+	}
 }
